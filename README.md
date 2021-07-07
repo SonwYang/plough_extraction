@@ -15,25 +15,25 @@
 
 > data
 >
-> ​	train_images
+> train_images
 >
 >   			***.tif
 >
-> ​			  ***.tif
+> 			  ***.tif
 >
-> ​			  ***.tif
+> 			  ***.tif
 >
-> ​             ...........
+>              ...........
 >
-> ​	train_labels
+> 	train_labels
 >
 >   			***.tif
 >
-> ​			  ***.tif
+> 			  ***.tif
 >
-> ​			  ***.tif
+> 			  ***.tif
 >
-> ​             ...........
+>              ...........
 
 
 
