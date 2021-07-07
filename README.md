@@ -18,7 +18,7 @@
 > 
 >     train_images
 >
->   			***.tif
+>   		  ***.tif
 >
 > 			  ***.tif
 >
@@ -28,7 +28,7 @@
 >
 > 	  train_labels
 > 	
->   			***.tif
+>   	    ***.tif
 >
 > 			  ***.tif
 >
