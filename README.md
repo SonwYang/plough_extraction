@@ -14,8 +14,8 @@
 ## 1.2.  数据目录 
 
 > data
->
-> train_images
+> 
+>     train_images
 >
 >   			***.tif
 >
@@ -25,8 +25,8 @@
 >
 >              ...........
 >
-> 	train_labels
->
+> 	  train_labels
+> 	
 >   			***.tif
 >
 > 			  ***.tif
