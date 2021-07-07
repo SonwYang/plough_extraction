@@ -28,7 +28,7 @@
 >
 > 	  train_labels
 > 	
->         ***.tif
+>   		  ***.tif
 >
 > 			  ***.tif
 >
