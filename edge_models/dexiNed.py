@@ -1,7 +1,6 @@
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from SoftPool import soft_pool2d
 from functools import partial
 
 
@@ -171,8 +170,8 @@ class DexiNed(nn.Module):
         self.dblock_4 = _DenseBlock(3, 256, 512)
         self.dblock_5 = _DenseBlock(3, 512, 512)
         self.dblock_6 = _DenseBlock(3, 512, 256)
-        # self.maxpool = nn.MaxPool2d(kernel_size=3, stride=2, padding=1)
-        self.maxpool = partial(soft_pool2d,  kernel_size=(2,2), stride=(2,2), force_inplace=True)
+        self.maxpool = nn.MaxPool2d(kernel_size=3, stride=2, padding=1)
+#         self.maxpool = partial(soft_pool2d,  kernel_size=(2,2), stride=(2,2), force_inplace=True)
 
 
         # left skip connections, figure in Journal
