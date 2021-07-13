@@ -322,8 +322,11 @@ if __name__ == '__main__':
     cfg = ConfigEval()
     f = open('config_test.txt')
     data = f.readlines()
+    ### 影像路径
     cfg.data_path = data[0].replace('\n', '')
+    ### 边缘检测模型路径
     cfg.model_path = data[1].replace('\n', '')
+    ### 分割模型路径
     cfg.seg_model_path = data[3].replace('\n', '')
     outPath = data[2].replace('\n', '')
     outRoot = os.path.split(outPath)[0]
