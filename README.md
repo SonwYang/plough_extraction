@@ -1,3 +1,4 @@
+This repo is the unofficial pytorch implementation of paper "[Contour-oriented Cropland Extraction from High Resolution Remote Sensing Imagery Using Richer Convolution Features Network](https://ieeexplore.ieee.org/document/8820430)".And I add some tricks on this method.
 
 # 1. 数据集准备
 
