@@ -50,10 +50,10 @@ if __name__ == '__main__':
     cfg = ConfigEval()
     f = open('config_test.txt')
     data = f.readlines()
-    cfg.data_path = data[0].replace('\n', '')
-    cfg.model_path = data[1].replace('\n', '')
-    outPath = data[2].replace('\n', '')
-    cfg.seg_model_path = data[3].replace('\n', '')
+    cfg.data_path = data[0].replace('\n', '')    ####  the path of your image, such as "D:/test/test.png"
+    cfg.model_path = data[1].replace('\n', '')   ####  the path of edge model, such as "D:/test/edge.pth"
+    outPath = data[2].replace('\n', '')           ####  the path of out shapefile, such as "D:/test/result.shp"
+    cfg.seg_model_path = data[3].replace('\n', '')    ####  the path of segmentation model, such as "D:/test/seg.pth"
     outRoot = os.path.split(outPath)[0]
     outName = os.path.split(outPath)[-1].split('.')[0]
 
